@@ -1,0 +1,62 @@
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #2E1437; /* Fundo roxo escuro */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    background: #51425F; /* Caixa com tom intermediário */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid #948E99; /* Borda com tom mais claro */
+}
+
+h1 {
+    font-size: 24px;
+    color: #948E99; /* Nome com destaque em tom cinza arroxeado */
+}
+
+p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.links a {
+    display: block;
+    background: #948E99; /* Links com a cor mais clara */
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    background: #2E1437; /* Hover com roxo bem escuro */
+    border: 1px solid #948E99;
+}
